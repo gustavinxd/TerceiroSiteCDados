@@ -1,0 +1,60 @@
+body{
+    background-image: url(img/fundo_preto.jpg);
+    color: yellow;
+}
+
+main, body, h1{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1, h2{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.gifs{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.imagens_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+/* .imagens_main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+} */
+
+.imagens_main h1 {
+    font-size: 120px;
+}
+
+/* .imagens_main img {
+    width: 400px;
+} */
+
+.imagens_main img {
+    width: 400px;
+}
+
+#antigo{
+}
+
+
+#atual{
+    display: none;
+}
+
