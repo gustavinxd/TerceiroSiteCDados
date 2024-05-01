@@ -1,60 +1,145 @@
-body{
-    background-image: url(img/fundo_preto.jpg);
-    color: yellow;
+body {
+  background-image: url(img/fundo_preto.jpg);
+  color: yellow;
 }
 
-main, body, h1{
-    padding: 0;
-    margin: 0;
+main,
+body,
+h1 {
+  padding: 0;
+  margin: 0;
 }
 
-
-h1, h2{
-    text-transform: capitalize;
-    text-align: center;
+h1,
+h2 {
+  text-transform: capitalize;
+  text-align: center;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
 
-.gifs{
-    width: 300px;
-    margin: 0 auto;
+.gifs {
+  width: 300px;
+  margin: 0 auto;
 }
 
-.imagens_main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
+.imagens_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .imagens_main{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    gap: 20px; 
+/* .imagens_main {
+  background-color: #090909;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  padding: 20px;
 } */
 
 .imagens_main h1 {
-    font-size: 120px;
+  font-size: 120px;
 }
-
-/* .imagens_main img {
-    width: 400px;
-} */
 
 .imagens_main img {
-    width: 400px;
+  width: 400px;
 }
 
-#antigo{
+#antigo {
+  display: block;
 }
 
-
-#atual{
-    display: none;
+#atual {
+  display: none;
 }
 
+.historia {
+  display: block;
+  flex-direction: row-reverse;
+  padding: 30px;
+}
+
+.titulos {
+  display: block;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.legado {
+  display: block;
+  flex-direction: row-reverse;
+  padding: 30px;
+}
+
+section {
+  width: 50%;
+  padding: 30px;
+}
+
+.cardR {
+  border-radius: 0 30px 30px 0;
+}
+
+.cardL {
+  border-radius: 30px 0 0 30px;
+}
+
+.card_image {
+  background-color: white;
+  border-color: gold;
+  border-style: solid;
+  height: 500px;
+}
+
+.card_text {
+  background-color: #090909;
+  border-color: gold;
+  border-style: solid;
+}
+
+.card_text h2 {
+  font-size: 38px;
+}
+
+.card_text p {
+  font-size: 24px;
+}
+
+.botaodiv {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#botao {
+  padding: 10px;
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  border-radius: 15px;
+  border-style: solid;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.vila {
+  background-image: url(img/vila_belmiro.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.time {
+  background-image: url(img/titulo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.torcida {
+  background-image: url(img/legado.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
