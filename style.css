@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body {
   background-image: url(img/fundo_preto.jpg);
   color: yellow;
@@ -54,6 +55,7 @@ p {
 }
 
 #atual {
+  font-family: "Oswald", sans-serif;
   display: none;
 }
 
@@ -116,6 +118,8 @@ section {
 }
 
 #botao {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
   padding: 10px;
   background-color: gold;
   color: black;
